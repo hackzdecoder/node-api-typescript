@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "jsx": "preserve",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "routes/*": ["routes/*"],
+      "controllers/*": ["controllers/*"],
+      "models/*": ["models/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "config/**/*.ts",
+    "config/**/*.tsx",
+    "routes/**/*.ts",
+    "routes/**/*.tsx"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "node-typescript-api",
+  "version": "1.0.0",
+  "main": "config/server.tsx",
+  "scripts": {
+    "dev": "tsx watch config/server.tsx",
+    "start": "tsx config/server.tsx"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "@types/pg": "^8.15.5",
+    "@types/sequelize": "^4.28.20",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
